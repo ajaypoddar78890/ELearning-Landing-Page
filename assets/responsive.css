@@ -1,0 +1,161 @@
+@media (max-width: 986px) {
+  #hero-section .hero-content h1,
+  .showreel-video .video-heading h2,
+  h3 {
+    font-size: 2rem;
+  }
+  .hero-form .hero-form-wrapper p {
+    font-size: 1.5rem;
+  }
+  .showcase-card {
+    min-height: 20rem;
+    min-width: 30rem;
+  }
+  .why-section .why-cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .showreel-video .our-highlight div p {
+    font-size: 2.5rem;
+  }
+  .showreel-video .our-highlight div span {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 786px) {
+  :root {
+    --section-spacing: 60px 0;
+    --even-section-spacing: 0 0 60px 0;
+  }
+  .wrapper {
+    padding: 0 20px;
+  }
+  #hero-section .wrapper {
+    grid-template-columns: repeat(1, 1fr);
+    column-gap: 0;
+    row-gap: 3rem;
+    margin-top: 3rem;
+  }
+  #hero-section .hero-content {
+    max-width: 100%;
+  }
+  #hero-section .hero-content .hero-rating {
+    margin-top: 3rem;
+  }
+  #hero-section .hero-content::after {
+    display: none;
+  }
+  .email-address {
+    display: none;
+  }
+  .hero-form .hero-form-wrapper {
+    max-width: 100%;
+  }
+  .hero-form .hero-form-wrapper::before {
+    background: none;
+  }
+  #hero-section .hero-content .hero-rating {
+    margin-top: 2rem;
+  }
+  .showcase-card {
+    min-width: 90%;
+    gap: 10px;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .showcase-carousel {
+    column-gap: 15px;
+  }
+  .showcase-card .showcase-text {
+    border-radius: 15px 15px 0 0;
+  }
+  .showcase-card .showcase-logo {
+    border-radius: 0 0 15px 15px;
+  }
+  .showcase-card .showcase-logo {
+    align-items: center;
+  }
+  .showcase-section .showcase-heading,
+  .creative-section .creative-content,
+  .testimonial-section .testimonial-content {
+    padding: 0 20px;
+    text-align: left;
+    max-width: 100%;
+    margin-bottom: 30px;
+  }
+  .showcase-carousel {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+  .youtube .play-button {
+    width: 60px;
+    height: 60px;
+  }
+  .youtube .play-button:before {
+    border-width: 12px 0 12px 20px;
+  }
+  .showreel-video .video-heading,
+  .why-section .why-content {
+    text-align: left;
+    max-width: 100%;
+  }
+  .call-to-action {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .action-button {
+    justify-self: start;
+  }
+  .who-content {
+    text-align: left;
+  }
+  .who-content .who-text p {
+    margin: 0.8rem 0 2rem 0;
+  }
+  .who-content .who-image img {
+    height: 500px;
+    object-fit: cover;
+  }
+  .showreel-video .our-highlight {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    align-items: start;
+  }
+  .showreel-video .our-highlight div span {
+    font-size: 1rem;
+    line-height: 1.2;
+  }
+  .showreel-video .our-highlight div p {
+    margin-bottom: 10px;
+  }
+  .why-section .why-cards {
+    grid-template-columns: repeat(1, 1fr);
+    margin-top: 30px;
+  }
+  .footer .wrapper {
+    justify-content: center;
+    flex-flow: column-reverse nowrap;
+  }
+  .testimonial-cards,
+  .faq-questions {
+    margin-top: 30px;
+  }
+  .creative-overlay p {
+    margin: 30px;
+  }
+  .showreel-video .our-highlight div {
+    text-align: left;
+  }
+  .thank-you-section .thank-wrapper {
+    padding: 0px 20px;
+  }
+  .thank-you-section .thank-wrapper h1 {
+    font-size: 2rem;
+  }
+  .thank-you-section .thank-wrapper img {
+    width: 4rem;
+    height: 4rem;
+    margin-bottom: 1.2rem;
+  }
+  .thank-you-section .thank-wrapper a {
+    margin-top: 2.5rem;
+  }
+}
